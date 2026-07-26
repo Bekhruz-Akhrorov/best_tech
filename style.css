@@ -1,0 +1,361 @@
+body{
+    background-color: white;
+}
+
+.tech{
+    height: 250px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    background-color: rgb(50, 132, 50);
+    color: rgb(237, 237, 237);
+    flex-direction: column;
+    display: grid;
+}
+
+.tech h1{
+    align-items: baseline;
+    text-align: center;
+    font-size: 225%;
+}
+
+.tech p{
+    color: rgb(237, 237, 237);
+    text-align: center;
+    align-items: baseline;
+    margin-top: -5%;
+    font-size: 110%;
+
+}
+
+.tech a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-top: -5%;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.headphone{
+    background: linear-gradient(90deg, #4487a7, #21bfc2);
+    color: rgb(237, 237, 237);
+    width: 500px;
+    height: 90vh;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px 0 #1fd4ce;
+}
+
+.headphone:hover{
+    transform: scale(1.05);
+}
+
+.headphone h2{
+    font-size: 150%;
+}
+
+.headphone img{
+    height: 400px;
+    width: 450px;
+    border-radius: 8px;
+}
+
+.headphone a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+}
+
+.headphone a:hover{
+    text-decoration: underline;
+}
+
+.phone{
+    background: linear-gradient(90deg, #457634, #188a33);
+    color: rgb(237, 237, 237);
+    width: 500px;
+    height: 90vh;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px 0 #1fd425;
+}
+
+.phone:hover{
+    transform: scale(1.05)
+}
+
+.phone h2{
+    font-size: 150%;
+}
+
+.phone img{
+   height: 400px;
+   width: 225px;
+   border-radius: 8px; 
+
+}
+
+.phone a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+}
+
+.phone a:hover{
+    text-decoration: underline;
+}
+
+.glasses{
+    background: linear-gradient(90deg, rgb(63, 85, 207), rgb(16, 72, 195));
+    color: rgb(237, 237, 237);
+    width: 500px;
+    height: 90vh;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px 0 #1f3ad4;
+}
+
+.glasses:hover{
+    transform: scale(1.05);
+}
+
+.glasses h2{
+    font-size: 150%;
+}
+
+.glasses img{
+    height: 400px;
+    width: 225px;
+    border-radius: 8px;
+}
+
+.glasses a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+}
+
+.glasses a:hover{
+    text-decoration: underline;
+}
+
+.laptop{
+    background: linear-gradient(90deg, #dfbf7e, #e3b784);
+    color: rgb(237, 237, 237);
+    width: 500px;
+    height: 90vh;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px 0 #d49e1f;
+}
+
+.laptop:hover{
+    transform: scale(1.05)
+}
+
+.laptop h2{
+    font-size: 150%;
+}
+
+.laptop img{
+   height: 250px;
+   width: 320px;
+   border-radius: 8px; 
+
+}
+
+.laptop a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+}
+
+.laptop a:hover{
+    text-decoration: underline;
+}
+
+.tv{
+    background: linear-gradient(90deg, rgb(70, 35, 195), rgb(19, 54, 129));
+    color: rgb(237, 237, 237);
+    width: 500px;
+    height: 90vh;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px 0 #2b1fd4;
+}
+
+.tv:hover{
+    transform: scale(1.05);
+}
+
+.tv h2{
+    font-size: 150%;
+}
+
+.tv img{
+    height: 230px;
+    width: 400px;
+    border-radius: 8px;
+}
+
+.tv a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+}
+
+.tv a:hover{
+    text-decoration: underline;
+}
+
+.printer{
+    background: linear-gradient(90deg, rgb(35, 195, 142), rgb(17, 125, 39));
+    color: rgb(237, 237, 237);
+    width: 500px;
+    height: 90vh;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding: 4px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px 0 #1fd45b;
+}
+
+.printer:hover{
+    transform: scale(1.05);
+}
+
+.printer h2{
+    font-size: 150%;
+}
+
+.printer img{
+    height: 290px;
+    width: 300px;
+    border-radius: 8px;
+}
+
+.printer a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+}
+
+.printer a:hover{
+    text-decoration: underline;
+}
+
+.printer p{
+    color: rgb(237, 237, 237);
+    font-size: 90%;
+}
+
+.switch{
+    background: linear-gradient(90deg, #a41e1e, #a00c0c);
+    color: rgb(237, 237, 237);
+    width: 500px;
+    height: 90vh;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px 0 #d4311f;
+}
+
+.switch:hover{
+    transform: scale(1.05);
+}
+
+.switch h2{
+    font-size: 160%;
+}
+
+.switch img{
+    height: 300px;
+    width: 470px;
+    border-radius: 8px;
+}
+
+.switch p{
+    color: rgb(237, 237, 237);
+    font-size: 25px;
+}
+
+.switch a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.switch a:hover{
+    text-decoration: underline;
+}
+
+.pc{
+    background: linear-gradient(90deg, #0ec2de, #24d9df);
+    color: rgb(237, 237, 237);
+    width: 500px;
+    height: 90vh;
+    border-radius: 16px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    flex-direction: column;
+    padding: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 8px 16px 0 #1fadd4;
+}
+
+.pc:hover{
+    transform: scale(1.05);
+}
+
+.pc h2{
+    font-size: 150%;
+}
+
+.pc img{
+    height: 300px;
+    width: 350px;
+    border-radius: 8px;
+}
+
+.pc a{
+    color: rgb(237, 237, 237);
+    text-decoration: none;
+}
+
+.pc a:hover{
+    text-decoration: underline;
+}
